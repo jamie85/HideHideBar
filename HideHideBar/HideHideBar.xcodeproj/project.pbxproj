@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D298E5F1D0B391D007C9DEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D298E5E1D0B391D007C9DEB /* AppDelegate.swift */; };
+		7D298E611D0B391D007C9DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D298E601D0B391D007C9DEB /* Assets.xcassets */; };
+		7D298E641D0B391D007C9DEB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D298E621D0B391D007C9DEB /* MainMenu.xib */; };
+		7D298E6F1D0B391D007C9DEB /* HideHideBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D298E6E1D0B391D007C9DEB /* HideHideBarTests.swift */; };
+		7D298E7A1D0B391D007C9DEB /* HideHideBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D298E791D0B391D007C9DEB /* HideHideBarUITests.swift */; };
+		7D298E881D0B396B007C9DEB /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D298E871D0B396B007C9DEB /* Controller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D298E6B1D0B391D007C9DEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D298E531D0B391D007C9DEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D298E5A1D0B391D007C9DEB;
+			remoteInfo = HideHideBar;
+		};
+		7D298E761D0B391D007C9DEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D298E531D0B391D007C9DEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D298E5A1D0B391D007C9DEB;
+			remoteInfo = HideHideBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D298E5B1D0B391D007C9DEB /* HideHideBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideHideBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D298E5E1D0B391D007C9DEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D298E601D0B391D007C9DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D298E631D0B391D007C9DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7D298E651D0B391D007C9DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D298E6A1D0B391D007C9DEB /* HideHideBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideHideBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D298E6E1D0B391D007C9DEB /* HideHideBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideHideBarTests.swift; sourceTree = "<group>"; };
+		7D298E701D0B391D007C9DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D298E751D0B391D007C9DEB /* HideHideBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideHideBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D298E791D0B391D007C9DEB /* HideHideBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideHideBarUITests.swift; sourceTree = "<group>"; };
+		7D298E7B1D0B391D007C9DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D298E871D0B396B007C9DEB /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D298E581D0B391D007C9DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D298E671D0B391D007C9DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D298E721D0B391D007C9DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D298E521D0B391D007C9DEB = {
+			isa = PBXGroup;
+			children = (
+				7D298E5D1D0B391D007C9DEB /* HideHideBar */,
+				7D298E6D1D0B391D007C9DEB /* HideHideBarTests */,
+				7D298E781D0B391D007C9DEB /* HideHideBarUITests */,
+				7D298E5C1D0B391D007C9DEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D298E5C1D0B391D007C9DEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D298E5B1D0B391D007C9DEB /* HideHideBar.app */,
+				7D298E6A1D0B391D007C9DEB /* HideHideBarTests.xctest */,
+				7D298E751D0B391D007C9DEB /* HideHideBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D298E5D1D0B391D007C9DEB /* HideHideBar */ = {
+			isa = PBXGroup;
+			children = (
+				7D298E5E1D0B391D007C9DEB /* AppDelegate.swift */,
+				7D298E871D0B396B007C9DEB /* Controller.swift */,
+				7D298E601D0B391D007C9DEB /* Assets.xcassets */,
+				7D298E621D0B391D007C9DEB /* MainMenu.xib */,
+				7D298E651D0B391D007C9DEB /* Info.plist */,
+			);
+			path = HideHideBar;
+			sourceTree = "<group>";
+		};
+		7D298E6D1D0B391D007C9DEB /* HideHideBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D298E6E1D0B391D007C9DEB /* HideHideBarTests.swift */,
+				7D298E701D0B391D007C9DEB /* Info.plist */,
+			);
+			path = HideHideBarTests;
+			sourceTree = "<group>";
+		};
+		7D298E781D0B391D007C9DEB /* HideHideBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D298E791D0B391D007C9DEB /* HideHideBarUITests.swift */,
+				7D298E7B1D0B391D007C9DEB /* Info.plist */,
+			);
+			path = HideHideBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D298E5A1D0B391D007C9DEB /* HideHideBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D298E7E1D0B391D007C9DEB /* Build configuration list for PBXNativeTarget "HideHideBar" */;
+			buildPhases = (
+				7D298E571D0B391D007C9DEB /* Sources */,
+				7D298E581D0B391D007C9DEB /* Frameworks */,
+				7D298E591D0B391D007C9DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HideHideBar;
+			productName = HideHideBar;
+			productReference = 7D298E5B1D0B391D007C9DEB /* HideHideBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D298E691D0B391D007C9DEB /* HideHideBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D298E811D0B391D007C9DEB /* Build configuration list for PBXNativeTarget "HideHideBarTests" */;
+			buildPhases = (
+				7D298E661D0B391D007C9DEB /* Sources */,
+				7D298E671D0B391D007C9DEB /* Frameworks */,
+				7D298E681D0B391D007C9DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D298E6C1D0B391D007C9DEB /* PBXTargetDependency */,
+			);
+			name = HideHideBarTests;
+			productName = HideHideBarTests;
+			productReference = 7D298E6A1D0B391D007C9DEB /* HideHideBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D298E741D0B391D007C9DEB /* HideHideBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D298E841D0B391D007C9DEB /* Build configuration list for PBXNativeTarget "HideHideBarUITests" */;
+			buildPhases = (
+				7D298E711D0B391D007C9DEB /* Sources */,
+				7D298E721D0B391D007C9DEB /* Frameworks */,
+				7D298E731D0B391D007C9DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D298E771D0B391D007C9DEB /* PBXTargetDependency */,
+			);
+			name = HideHideBarUITests;
+			productName = HideHideBarUITests;
+			productReference = 7D298E751D0B391D007C9DEB /* HideHideBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D298E531D0B391D007C9DEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jamie Sambi";
+				TargetAttributes = {
+					7D298E5A1D0B391D007C9DEB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7D298E691D0B391D007C9DEB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7D298E5A1D0B391D007C9DEB;
+					};
+					7D298E741D0B391D007C9DEB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7D298E5A1D0B391D007C9DEB;
+					};
+				};
+			};
+			buildConfigurationList = 7D298E561D0B391D007C9DEB /* Build configuration list for PBXProject "HideHideBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D298E521D0B391D007C9DEB;
+			productRefGroup = 7D298E5C1D0B391D007C9DEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D298E5A1D0B391D007C9DEB /* HideHideBar */,
+				7D298E691D0B391D007C9DEB /* HideHideBarTests */,
+				7D298E741D0B391D007C9DEB /* HideHideBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D298E591D0B391D007C9DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D298E611D0B391D007C9DEB /* Assets.xcassets in Resources */,
+				7D298E641D0B391D007C9DEB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D298E681D0B391D007C9DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D298E731D0B391D007C9DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D298E571D0B391D007C9DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D298E5F1D0B391D007C9DEB /* AppDelegate.swift in Sources */,
+				7D298E881D0B396B007C9DEB /* Controller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D298E661D0B391D007C9DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D298E6F1D0B391D007C9DEB /* HideHideBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D298E711D0B391D007C9DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D298E7A1D0B391D007C9DEB /* HideHideBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D298E6C1D0B391D007C9DEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D298E5A1D0B391D007C9DEB /* HideHideBar */;
+			targetProxy = 7D298E6B1D0B391D007C9DEB /* PBXContainerItemProxy */;
+		};
+		7D298E771D0B391D007C9DEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D298E5A1D0B391D007C9DEB /* HideHideBar */;
+			targetProxy = 7D298E761D0B391D007C9DEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D298E621D0B391D007C9DEB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D298E631D0B391D007C9DEB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D298E7C1D0B391D007C9DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D298E7D1D0B391D007C9DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7D298E7F1D0B391D007C9DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HideHideBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jamie.HideHideBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D298E801D0B391D007C9DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HideHideBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jamie.HideHideBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7D298E821D0B391D007C9DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HideHideBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jamie.HideHideBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HideHideBar.app/Contents/MacOS/HideHideBar";
+			};
+			name = Debug;
+		};
+		7D298E831D0B391D007C9DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HideHideBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jamie.HideHideBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HideHideBar.app/Contents/MacOS/HideHideBar";
+			};
+			name = Release;
+		};
+		7D298E851D0B391D007C9DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HideHideBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jamie.HideHideBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HideHideBar;
+			};
+			name = Debug;
+		};
+		7D298E861D0B391D007C9DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HideHideBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jamie.HideHideBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HideHideBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D298E561D0B391D007C9DEB /* Build configuration list for PBXProject "HideHideBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D298E7C1D0B391D007C9DEB /* Debug */,
+				7D298E7D1D0B391D007C9DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D298E7E1D0B391D007C9DEB /* Build configuration list for PBXNativeTarget "HideHideBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D298E7F1D0B391D007C9DEB /* Debug */,
+				7D298E801D0B391D007C9DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D298E811D0B391D007C9DEB /* Build configuration list for PBXNativeTarget "HideHideBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D298E821D0B391D007C9DEB /* Debug */,
+				7D298E831D0B391D007C9DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D298E841D0B391D007C9DEB /* Build configuration list for PBXNativeTarget "HideHideBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D298E851D0B391D007C9DEB /* Debug */,
+				7D298E861D0B391D007C9DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D298E531D0B391D007C9DEB /* Project object */;
+}
